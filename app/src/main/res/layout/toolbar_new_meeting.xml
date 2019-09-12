@@ -1,0 +1,39 @@
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myAccountToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetEnd="0dp"
+    android:background="@color/colorPrimary"
+    local:theme="@style/Theme.AppCompat.NoActionBar"
+    local:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="BACK"
+            android:id="@+id/back"
+            android:padding="4dp"
+            android:textSize="16dp"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:textSize="16dp"
+          android:text="SCHEDULE A MEETING"
+          android:textColor="#ffffff"
+          android:id="@+id/title"
+          android:textStyle="bold"
+          android:layout_centerInParent="true"
+          android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>
